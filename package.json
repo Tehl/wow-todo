@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev:format": "prettier --write \"src/**/*.{js,json}\"",
-    "build": "rm -rf dist && parcel build src/index.html",
+    "build": "rm -rf dist && parcel build src/index.html --no-cache --public-url /todo",
     "start": "parcel src/index.html"
   },
   "dependencies": {
